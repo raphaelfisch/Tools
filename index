@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tools</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+```
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%);
+        min-height: 100vh;
+        padding: 2rem;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        color: #1a1a2e;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .tools-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .tool-card {
+        background: white;
+        border-radius: 16px;
+        padding: 1.5rem;
+        text-decoration: none;
+        color: inherit;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        transition: all 0.3s ease;
+        display: block;
+    }
+
+    .tool-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+    }
+
+    .tool-icon {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .tool-title {
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: #1a1a2e;
+        margin-bottom: 0.5rem;
+    }
+
+    .tool-description {
+        font-size: 0.95rem;
+        color: #666;
+        line-height: 1.5;
+    }
+</style>
+```
+
+</head>
+<body>
+    <div class="container">
+        <h1>Tools</h1>
+
+```
+    <div class="tools-grid">
+        <a href="keimplan.html" class="tool-card">
+            <div class="tool-icon">🌱</div>
+            <div class="tool-title">Keimplan Generator</div>
+            <div class="tool-description">Scanne Sprossensamen-Packungen und erstelle einen persönlichen Keimplan mit Spülzeiten.</div>
+        </a>
+    </div>
+</div>
+```
+
+</body>
+</html>
